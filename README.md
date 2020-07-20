@@ -1,6 +1,6 @@
-# Pig-Game
+# Dice-Game
 
-Rules of Pig game:  
+Rules of Dice game:  
 -> Enter the final score in the final score box otherwise the default will be 100.  
 -> Press the roll dice button to roll the two dice.  
 -> If any of the dice shows 1 then your current score will become 0 and then it will be next player's turn.  
