@@ -8,3 +8,6 @@ Rules of Dice game:
 -> you can press the roll dice button multiple times this will increase your current score but if any of the dice turns 1 then your score will be reset.  
 -> The player who reaches the final score earlier wins the game.  
 -> Press the new game button to start a new game.  
+
+
+#### To play the game click here- https://ajitesh20.github.io/Dice-Game
