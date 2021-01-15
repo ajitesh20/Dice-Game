@@ -1,7 +1,3 @@
-/**********************************************
-*** GENERAL
-**********************************************/
-
 .final-score {
     position: absolute;
     left: 50%;
@@ -20,8 +16,52 @@
     outline: none;  
 }
 
-#dice-1 { top: 120px;}
-#dice-2 { top: 250px;}
+@keyframes roll_1{
+    0%{
+        transform: translateX(-200px) rotate(288deg);
+        rotate: 30deg;
+    }
+    25%{
+        transform: translateX(-150px) rotate(216deg)
+    }
+    50%{
+        transform: translateX(-100px) rotate(144deg)
+    }
+    75%{
+        transform: translateX(-50px) rotate(72deg)
+    }
+    100%{
+    }
+}
+
+@keyframes roll_2{
+    0%{
+        transform: translateX(+200px) rotate(288deg);
+        rotate: 30deg;
+    }
+    25%{
+        transform: translateX(+150px) rotate(216deg)
+    }
+    50%{
+        transform: translateX(+100px) rotate(144deg)
+    }
+    75%{
+        transform: translateX(+50px) rotate(72deg)
+    }
+    100%{
+    }
+}
+
+#dice-1 { 
+    top: 120px;
+    animation-name: roll_1;
+    animation-duration: 0.25s;
+}
+#dice-2 {
+    top: 250px;
+    animation-name: roll_2;
+    animation-duration: 0.25s;
+}
 
 * {
     margin: 0;
@@ -66,11 +106,6 @@ body {
     padding: 100px;
 }
 
-
-
-/**********************************************
-*** PLAYERS
-**********************************************/
 
 .player-name {
     font-size: 40px;
